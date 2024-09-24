@@ -23,3 +23,6 @@ map.forEach((value,key) => {
     console.log(`${key} : ${value}`);
 })
 // console.log(map);
+
+//SIZE
+console.log(map.size);
