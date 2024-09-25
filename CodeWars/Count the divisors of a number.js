@@ -13,18 +13,15 @@ The numbers between parentheses are shown only for you to see which numbers are 
 
 function getDivisorsCnt(n) {
     let counter = 1;
-    /*for (let i = 0; i < n; i++) {
+    for (let i = 0; i < n; i++) {
         if (n % i === 0) {
             counter++;
         }
     }
-    return counter;*/
-    n.forEach((element) => {
-        if (n%element === 0) {
-            counter++;
-        }
-    })
     return counter;
 }
 
 console.log(getDivisorsCnt(12));
+console.log(getDivisorsCnt(12));
+console.log(getDivisorsCnt(12));
+console.log(getDivisorsCnt(50000));
