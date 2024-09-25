@@ -19,3 +19,5 @@ for (const setElement of set) {
 set.forEach((value, set) => {
     console.log(value.age+3);
 })
+
+console.log(set.has(john));
